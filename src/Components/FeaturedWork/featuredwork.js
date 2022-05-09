@@ -14,7 +14,7 @@ export const Container = styled.div`
 `;
 
 export const Group = styled.div`
-  width: 75%;
+  width: 73%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -29,7 +29,7 @@ export const Title = styled.h2`
 `;
 
 export const Box = styled.div`
-  padding: 0% 2%;
+  padding: 3% 3%;
   width: 30vw;
   height: 28vw;
   background-color: #c4f0b9;

@@ -21,7 +21,7 @@ export function DesignPhiloContainer() {
                 With the types of products I create and the projects I work on
               </li>
               <li>
-                And leave every problem space better off than it was before
+                And hope to leave every problem space better off than it was before
               </li>
             </ul>
           </DesignPhilo.Philo>

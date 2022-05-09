@@ -2,6 +2,7 @@ import React from "react";
 import { Home } from "./Screens/Home";
 import { Engineering } from "./Screens/Engineering";
 import { DiydmKits } from "./Screens/DiydmKits";
+import { FPCC } from "./Screens/FPCC";
 import { Design } from "./Screens/Design";
 import { AboutMe } from "./Screens/AboutMe";
 import { Resume } from "./Screens/Resume"
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/engineering" element={<Engineering />} />
           <Route path="/diydmkits" element={<DiydmKits />} />
+          <Route path="/bird-friendly-picnic-structures" element={<FPCC />} />
         <Route path="/design" element={<Design />} />
         <Route path="/aboutme" element={<AboutMe />} />
         <Route path="/resume" element={<Resume />} />
