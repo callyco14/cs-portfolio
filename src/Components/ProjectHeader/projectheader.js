@@ -7,8 +7,8 @@ export const Inner = styled.div`
   align-items: center;
 `;
 
-export const Container = styled.div`
-  width: 90%;
+export const Container = styled.div` 
+  width: 100vw;
   display: flex;
   padding: 0% 5%;
   flex-direction: ${(direction) => direction};

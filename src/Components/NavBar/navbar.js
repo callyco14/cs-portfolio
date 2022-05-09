@@ -10,7 +10,7 @@ export const Container = styled.div`
     position: sticky;
     top: 0;
     z-index: 100;
-    width: 90%;
+    width: 100vw;
     overflow: hidden;
     padding: 2% 5%;
     background-color: #C4F0B9;

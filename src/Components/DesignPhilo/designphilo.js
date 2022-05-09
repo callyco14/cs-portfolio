@@ -8,6 +8,7 @@ export const Inner = styled.div`
     `;
 
 export const Container = styled.div`
+  width: 100vw;
   display: flex;
   padding: 1% 0%;
   flex-direction: ${(direction) => direction};
@@ -24,6 +25,7 @@ export const Title = styled.h1`
 `;
 
 export const Group = styled.div`
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
