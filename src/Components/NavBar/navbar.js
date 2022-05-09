@@ -1,15 +1,20 @@
 import styled from "styled-components/macro"
  
 export const Inner = styled.div`
-   width: 100%;
-   display: flex;
-   flex-direction: ${direction => direction};
-   `
+    width: 100%;
+    display: flex;
+    flex-direction: ${direction => direction};
+    `
  
 export const Container = styled.div`
-   padding: 3% 5%;
-   background-color: #C4F0B9;
-   `
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 90%;
+    overflow: hidden;
+    padding: 2% 5%;
+    background-color: #C4F0B9;
+    `
  
 export const Links = styled.div`
    display: flex;

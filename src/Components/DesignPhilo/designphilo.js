@@ -9,7 +9,7 @@ export const Inner = styled.div`
 
 export const Container = styled.div`
   display: flex;
-  padding: 2% 0%;
+  padding: 1% 0%;
   flex-direction: ${(direction) => direction};
   background-color: #badcb2;
   justify-content: center;
@@ -25,7 +25,6 @@ export const Title = styled.h1`
 
 export const Group = styled.div`
   display: flex;
-  padding: 1% 0%;
   flex-direction: column;
   align-items: center;
 `;

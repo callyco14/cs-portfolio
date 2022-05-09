@@ -13,15 +13,8 @@ export const Container = styled.div`
   flex-direction: ${(direction) => direction};
 `;
 
-export const Intro = styled.div`
-  padding: 2% 0%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-`;
-
 export const Group = styled.div`
-  padding: 0% 0%;
+  padding: 0% 0% 2% 0%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -57,6 +50,5 @@ export const Content = styled.a`
 
 export const Picture = styled.img`
   width: 30%;
-  padding-left: 15%;
-  margin-bottom: 1%;
+  padding-left: 10%;
 `;

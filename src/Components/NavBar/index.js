@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import { Inner, Container, Links, Text, Logo } from "./navbar";
 
 export default function NavBar({ children, direction = "row", ...restProps }) {

@@ -5,10 +5,10 @@ export function BottomNavContainer () {
        <BottomNav.Container>
            <BottomNav>
                 <BottomNav.Links>
-                        <BottomNav.Text href="#">Engineering</BottomNav.Text>
-                        <BottomNav.Text href="#">Design</BottomNav.Text>
-                        <BottomNav.Text href="#">About Me</BottomNav.Text>
-                        <BottomNav.Text href="#">Contact</BottomNav.Text>
+                        <BottomNav.Text href="engineering">Engineering</BottomNav.Text>
+                        <BottomNav.Text href="design">Design</BottomNav.Text>
+                        <BottomNav.Text href="aboutme">About Me</BottomNav.Text>
+                        <BottomNav.Text href="contact">Contact</BottomNav.Text>
                 </BottomNav.Links>
            </BottomNav>
        </BottomNav.Container>

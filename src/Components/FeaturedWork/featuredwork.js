@@ -3,25 +3,23 @@ import styled from "styled-components/macro";
 export const Inner = styled.div`
   width: 100%;
   display: flex;
-  flex-direction: ${(direction) => direction};
+  flex-direction: column;
+  align-items: center;
 `;
 
 export const Container = styled.div`
-  padding: 3% 5%;
-`;
-
-export const Section = styled.div`
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
+  padding: 0% 5%;
+  flex-direction: ${(direction) => direction};
 `;
 
 export const Group = styled.div`
+  width: 75%;
   display: flex;
   flex-direction: row;
-  align-items: space-between;
-  padding: 2%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1% 0% 2% 0%;
 `;
 
 export const Title = styled.h2`
@@ -31,18 +29,16 @@ export const Title = styled.h2`
 `;
 
 export const Box = styled.div`
-  margin: 0% 2%;
+  padding: 0% 2%;
   width: 30vw;
-  height: 25vw;
+  height: 28vw;
   background-color: #c4f0b9;
   border-radius: 25px;
   display: flex;
   justify-content: center;
-  position: relative;
 `;
 
 export const Icon = styled.img`
-  margin: 0;
   width: 100%;
   object-fit: contain;
 `;

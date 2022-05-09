@@ -6,33 +6,19 @@ export function FeaturedWorkContainer() {
   return (
     <FeaturedWork.Container>
       <FeaturedWork>
-        <FeaturedWork.Section>
           <FeaturedWork.Title>Featured Work</FeaturedWork.Title>
           <FeaturedWork.Group>
-            <FeaturedWork.Box>
-              <FeaturedWork.Icon src={DIYDM} />
-            </FeaturedWork.Box>
-            <FeaturedWork.Box>
-              <FeaturedWork.Icon src={Headshot} />
-            </FeaturedWork.Box>
+                <a href="diydmkits">
+                    <FeaturedWork.Box>
+                        <FeaturedWork.Icon src={DIYDM} />
+                    </FeaturedWork.Box>
+                </a>
+                <a href="diydmkits">
+                    <FeaturedWork.Box>
+                        <FeaturedWork.Icon src={DIYDM} />
+                    </FeaturedWork.Box>
+                </a>
           </FeaturedWork.Group>
-          <FeaturedWork.Group>
-            <FeaturedWork.Box>
-              <FeaturedWork.Icon src={Headshot} />
-            </FeaturedWork.Box>
-            <FeaturedWork.Box>
-              <FeaturedWork.Icon src={DIYDM} />
-            </FeaturedWork.Box>
-          </FeaturedWork.Group>
-          <FeaturedWork.Group>
-            <FeaturedWork.Box>
-              <FeaturedWork.Icon src={DIYDM} />
-            </FeaturedWork.Box>
-            <FeaturedWork.Box>
-              <FeaturedWork.Icon src={Headshot} />
-            </FeaturedWork.Box>
-          </FeaturedWork.Group>
-        </FeaturedWork.Section>
       </FeaturedWork>
     </FeaturedWork.Container>
   );

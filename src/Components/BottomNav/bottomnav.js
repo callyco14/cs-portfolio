@@ -7,7 +7,11 @@ export const Inner = styled.div`
    `
  
 export const Container = styled.div`
-   padding: 3% 5%;
+   position: relative;
+   bottom: 0;
+   overflow: hidden;
+   width: 90%;
+   padding: 1% 5%;
    background-color: #C4F0B9;
    `
 

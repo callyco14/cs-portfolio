@@ -25,7 +25,7 @@ export function AboutMeContainer() {
               World Chapter (ESWNU).
               <br />
               <br />
-              You can find my resume here. Please don’t hesitate to reach out if
+              You can find my resume <a href="resume">here</a>. Please don’t hesitate to reach out if
               you’d like to learn more about me or collaborate!
             </AboutMe.Content>
           </AboutMe.Text>

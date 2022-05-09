@@ -1,15 +1,5 @@
 import React from "react";
-import {
-  Inner,
-  Container,
-  Intro,
-  Group,
-  Text,
-  Title,
-  Name,
-  Content,
-  Picture,
-} from "./aboutme";
+import { Inner, Container, Group, Text, Title, Name, Content, Picture } from "./aboutme";
 
 export default function AboutMe({
   children,
@@ -21,10 +11,6 @@ export default function AboutMe({
 
 AboutMe.Container = function AboutMeContainer({ children, ...restProps }) {
   return <Container {...restProps}>{children}</Container>;
-};
-
-AboutMe.Intro = function AboutMeIntro({ children, ...restProps }) {
-  return <Intro {...restProps}>{children}</Intro>;
 };
 
 AboutMe.Group = function AboutMeGroup({ children, ...restProps }) {

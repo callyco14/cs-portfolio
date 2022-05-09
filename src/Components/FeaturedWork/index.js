@@ -1,5 +1,5 @@
 import React from "react"
-import {Inner, Container, Section, Group, Title, Box, Icon} from "./featuredwork"
+import {Inner, Container, Group, Title, Box, Icon} from "./featuredwork"
  
 export default function FeaturedWork ({children, direction = "row", ...restProps}) {
    return (
@@ -9,10 +9,6 @@ export default function FeaturedWork ({children, direction = "row", ...restProps
  
 FeaturedWork.Container = function FeaturedWorkContainer ({children, ...restProps}) {
    return <Container {...restProps}>{children}</Container>
-}
-
-FeaturedWork.Section = function FeaturedWorkSection ({children, ...restProps}) {
-    return <Section {...restProps}>{children}</Section>
 }
 
 FeaturedWork.Group = function FeaturedWorkGroup ({children, ...restProps}) {
