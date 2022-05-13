@@ -7,14 +7,11 @@ export const Inner = styled.div`
     `;
 
 export const Container = styled.div`
-  width: 100vw;
-  display: flex;
-  padding: 0% 5%;
-  flex-direction: ${(direction) => direction};
+  padding: 2% 5% 0% 5%;
+  background-color: #e3efe4;
 `;
 
 export const Intro = styled.div`
-  padding: 2% 0% 0% 0%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -23,6 +20,9 @@ export const Intro = styled.div`
 
 export const Group = styled.div`
   padding: 0% 0%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
 `;
 
 export const Greeting = styled.a`
@@ -34,14 +34,14 @@ export const Greeting = styled.a`
 export const Name = styled.h1`
   font-family: "Montserrat", sans-serif;
   font-size: 4em;
-  color: #209c89;
+  color: #38614D;
   font-weight: bold;
 `;
 export const Position = styled.a`
   font-family: "Montserrat", sans-serif;
   font-size: 2em;
-  color: #09719d;
-  font-weight: 500;
+  color: #8B855A;
+  font-weight: 600;
   text-decoration: none;
   @media only screen and (max-width: 768px) {
     font-size: 1.2rem;

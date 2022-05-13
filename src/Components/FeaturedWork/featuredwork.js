@@ -8,10 +8,8 @@ export const Inner = styled.div`
 `;
 
 export const Container = styled.div`
-  width: 100vw;
-  display: flex;
-  padding: 0% 5%;
-  flex-direction: ${(direction) => direction};
+  padding: 1% 5%;
+  background-color: #e3efe4;
 `;
 
 export const Group = styled.div`
@@ -26,17 +24,20 @@ export const Group = styled.div`
 export const Title = styled.h2`
   font-family: "Montserrat", sans-serif;
   font-size: 2.5em;
-  color: #1b5e4e;
+  color: #38614D;
 `;
 
 export const Box = styled.div`
   padding: 3% 3%;
   width: 30vw;
   height: 28vw;
-  background-color: #c4f0b9;
+  background-color: #c4decc;
   border-radius: 25px;
   display: flex;
   justify-content: center;
+  &:hover {
+    opacity: 60%;
+  }
 `;
 
 export const Icon = styled.img`

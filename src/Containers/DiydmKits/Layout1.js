@@ -15,9 +15,9 @@ export function ProjectLayout1Container() {
             <ProjectLayout1.Content>To solve that issue, I suggested creating a numerical labeling system that mapped each section of the plastic inserts to the stickers found on the inner side of the lids.</ProjectLayout1.Content>
           </ProjectLayout1.Text>
           <ProjectLayout1.PicGroup>
-              <ProjectLayout1.Picture src={Picture1}></ProjectLayout1.Picture>
-              <ProjectLayout1.Picture src={Picture2}></ProjectLayout1.Picture>
-              <ProjectLayout1.Picture src={Picture3}></ProjectLayout1.Picture>
+              <ProjectLayout1.Picture src={Picture1} width="25%"></ProjectLayout1.Picture>
+              <ProjectLayout1.Picture src={Picture2} width="25%"></ProjectLayout1.Picture>
+              <ProjectLayout1.Picture src={Picture3} width="25%"></ProjectLayout1.Picture>
           </ProjectLayout1.PicGroup>
           <ProjectLayout1.Text>
             <ProjectLayout1.Title>Design process</ProjectLayout1.Title>
@@ -34,7 +34,7 @@ export function ProjectLayout1Container() {
             <ProjectLayout1.Content>6. Mass-producing the vacuum-formed inserts</ProjectLayout1.Content>
           </ProjectLayout1.Text>
           <ProjectLayout1.Group>
-            <ProjectLayout1.Picture src={Picture4}></ProjectLayout1.Picture>
+            <ProjectLayout1.Picture src={Picture4} width="20%"></ProjectLayout1.Picture>
             <ProjectLayout1.Text>
                 <ProjectLayout1.Title>Results</ProjectLayout1.Title>
                 <ProjectLayout1.Content>

@@ -15,16 +15,19 @@ export function AboutMeContainer() {
               Engineering at Northwestern University, along with the Kellogg
               Managerial Analytics Certificate and the ISEN (Institute for
               Sustainability and Energy at Northwestern) Certificate.
-              <br />
-              <br />
+              <br /><br />
               My philosophy is designing for a difference; so if I’m not in the
               NU Rapid Prototyping Lab helping someone make their designs come
               to life, or collaborating on another health-focused design
               project, you can find me working on SmartTree and promoting
               sustainability through Northwestern’s Engineers for a Sustainable
               World Chapter (ESWNU).
-              <br />
-              <br />
+              <br /><br />
+              In my downtime, I like building Nanoblocks, wrestling with my two toy poodles, 
+              as well as playing music on my guitar or clarinet. I am also a huge Potterhead, 
+              a musical theater nerd, and enjoy competing for the top spot at Northwestern’s 
+              intramural volleyball tournament with my lovely team!
+              <br /><br />
               You can find my resume <a href="resume">here</a>. Please don’t hesitate to reach out if
               you’d like to learn more about me or collaborate!
             </AboutMe.Content>

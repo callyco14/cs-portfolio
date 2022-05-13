@@ -1,5 +1,5 @@
 import React from "react";
-import { Inner, Container, Transformation, Group, Title, Content, Picture } from "./projectheader";
+import { Inner, Container, Transformation, Group, Title, Content, Picture, Blurb, PicGroup } from "./projectheader";
 
 export default function ProjectHeader({
   children,
@@ -43,4 +43,16 @@ ProjectHeader.Picture = function ProjectHeaderPicture({ children, src, ...restPr
       {children}
     </Picture>
   );
+};
+
+ProjectHeader.Blurb = function ProjectHeaderBlurb({ children, href, ...restProps }) {
+  return (
+    <Blurb href={href} {...restProps}>
+      {children}
+    </Blurb>
+  );
+};
+
+ProjectHeader.PicGroup = function ProjectHeader1PicGroup({ children, ...restProps }) {
+  return <PicGroup {...restProps}>{children}</PicGroup>;
 };

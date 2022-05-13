@@ -8,10 +8,8 @@ export const Inner = styled.div`
 `;
 
 export const Container = styled.div`
-  width: 100vw;
-  display: flex;
-  padding: 0% 5%;
-  flex-direction: ${(direction) => direction};
+  padding: 0% 5% 2% 5%;
+  background-color: #e3efe4;
 `;
 
 export const Group = styled.div`
@@ -32,7 +30,7 @@ export const Text = styled.div`
 export const Title = styled.h2`
   font-family: "Montserrat", sans-serif;
   font-size: 2.5em;
-  color: #1b5e4e;
+  color: #38614D;
 `;
 
 export const Tagline = styled.a`

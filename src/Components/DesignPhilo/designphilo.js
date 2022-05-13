@@ -8,20 +8,19 @@ export const Inner = styled.div`
     `;
 
 export const Container = styled.div`
-  width: 100vw;
   display: flex;
-  padding: 1% 0%;
+  padding: 0% 0% 1% 0%;
   flex-direction: ${(direction) => direction};
-  background-color: #badcb2;
+  background-color: #c4decc;
   justify-content: center;
 `;
 
 export const Title = styled.h1`
   font-family: "Montserrat", sans-serif;
   font-size: 3em;
-  color: #7b3111;
+  color: #955339;
   font-style: italic;
-  font-weight: 500;
+  font-weight: 600;
 `;
 
 export const Group = styled.div`

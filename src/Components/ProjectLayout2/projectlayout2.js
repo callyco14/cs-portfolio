@@ -7,13 +7,12 @@ export const Inner = styled.div`
 `;
 
 export const Container = styled.div`
-  width: 100vw;
   display: flex;
   padding: 0% 5% 2% 5%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #FFFFFF;
+  background-color: #e3efe4;
 `;
 
 export const Text = styled.div`
@@ -42,7 +41,7 @@ export const Title = styled.h2`
     font-family: "Montserrat", sans-serif;
     font-size: 2em;
     font-weight: 600;
-    color: #1b5e4e;
+    color: #38614D;
 `;
 
 export const Content = styled.a`
@@ -53,6 +52,5 @@ export const Content = styled.a`
 
 export const Picture = styled.img`
   padding: 2% 2% 0% 2%;
-  max-width: 25%;
   object-fit: contain;
 `;

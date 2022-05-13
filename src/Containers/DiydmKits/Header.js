@@ -6,7 +6,7 @@ export function HeaderContainer() {
   return (
     <ProjectHeader.Container>
       <ProjectHeader>
-        <ProjectHeader.Title>DIYDM Kits</ProjectHeader.Title>
+        <ProjectHeader.Title>DIY-DM Kits</ProjectHeader.Title>
         <ProjectHeader.Transformation>
           <ProjectHeader.Group>
             <ProjectHeader.Picture src={Before}/>

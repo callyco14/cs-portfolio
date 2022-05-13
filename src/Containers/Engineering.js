@@ -9,7 +9,7 @@ export function EngineeringContainer() {
       <FeaturedWork>
           <FeaturedWork.Title>Engineering Projects</FeaturedWork.Title>
           <FeaturedWork.Group>
-                <a href="diydmkits">
+                <a href="diy-dm-kits">
                     <FeaturedWork.Box>
                         <FeaturedWork.Icon src={DIYDM} />
                     </FeaturedWork.Box>

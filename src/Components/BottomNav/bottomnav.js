@@ -10,9 +10,8 @@ export const Container = styled.div`
    position: relative;
    bottom: 0;
    overflow: hidden;
-   width: 100vw;
    padding: 1% 5%;
-   background-color: #C4F0B9;
+   background-color: #4a8456;
    `
 
 export const Links = styled.div`
@@ -22,6 +21,7 @@ export const Links = styled.div`
     justify-content: space-between;
     align-items: center;
     flex-grow: 1;
+    
     `
  
 export const Text = styled.a`
@@ -30,4 +30,7 @@ export const Text = styled.a`
     font-weight: 600;
     color: #000000;
     text-decoration: none;
+    &:hover {
+      color: #1b5e4e;
+    }
     `

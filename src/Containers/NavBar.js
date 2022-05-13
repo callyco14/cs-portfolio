@@ -8,6 +8,7 @@ export function NavBarContainer () {
                     <NavBar.Links>
                         <NavBar.Text href="engineering">Engineering</NavBar.Text>
                         <NavBar.Text href="design">Design</NavBar.Text>
+                        <NavBar.Text href="gallery">Gallery</NavBar.Text>
                         <NavBar.Text href="aboutme">About Me</NavBar.Text>
                         <NavBar.Text href="contact">Contact</NavBar.Text>
                     </NavBar.Links>

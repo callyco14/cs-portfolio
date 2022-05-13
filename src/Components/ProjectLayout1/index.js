@@ -13,8 +13,8 @@ ProjectLayout1.Container = function ProjectLayout1Container({ children, ...restP
   return <Container {...restProps}>{children}</Container>;
 };
 
-ProjectLayout1.Text = function ProjectLayout1Text({ children, ...restProps }) {
-  return <Text {...restProps}>{children}</Text>;
+ProjectLayout1.Text = function ProjectLayout1Text({ children, padding, ...restProps }) {
+  return <Text padding={padding} {...restProps}>{children}</Text>;
 };
 
 ProjectLayout1.Group = function ProjectLayout1Group({ children, ...restProps }) {
@@ -41,9 +41,9 @@ ProjectLayout1.Content = function ProjectLayout1Content({ children, href, ...res
   );
 };
 
-ProjectLayout1.Picture = function ProjectLayout1Picture({ children, src, ...restProps }) {
+ProjectLayout1.Picture = function ProjectLayout1Picture({ children, src, width, ...restProps }) {
   return (
-    <Picture src={src} {...restProps}>
+    <Picture src={src} width={width} {...restProps}>
       {children}
     </Picture>
   );

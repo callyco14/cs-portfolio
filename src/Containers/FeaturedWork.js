@@ -14,7 +14,7 @@ export function FeaturedWorkContainer() {
       <FeaturedWork>
           <FeaturedWork.Title>Featured Work</FeaturedWork.Title>
           <FeaturedWork.Group>
-                <a href="diydmkits">
+                <a href="diy-dm-kits">
                     <FeaturedWork.Box>
                         <FeaturedWork.Icon src={Foodies1} />
                         <FeaturedWork.Icon src={Foodies2} />
@@ -33,7 +33,7 @@ export function FeaturedWorkContainer() {
                         <FeaturedWork.Icon src={Inquest} />
                     </FeaturedWork.Box>
                 </a>
-                <a href="diydmkits">
+                <a href="diy-dm-kits">
                     <FeaturedWork.Box>
                         <FeaturedWork.Icon src={DIYDM} />
                     </FeaturedWork.Box>

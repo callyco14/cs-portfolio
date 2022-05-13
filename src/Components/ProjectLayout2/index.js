@@ -41,9 +41,9 @@ ProjectLayout2.Content = function ProjectLayout2Content({ children, href, ...res
   );
 };
 
-ProjectLayout2.Picture = function ProjectLayout2Picture({ children, src, ...restProps }) {
+ProjectLayout2.Picture = function ProjectLayout2Picture({ children, src, width, ...restProps }) {
   return (
-    <Picture src={src} {...restProps}>
+    <Picture src={src} width={width} {...restProps}>
       {children}
     </Picture>
   );

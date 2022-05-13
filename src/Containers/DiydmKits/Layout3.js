@@ -19,9 +19,9 @@ export function ProjectLayout3Container() {
             </ProjectLayout1.Content>
           </ProjectLayout1.Text>
           <ProjectLayout1.PicGroup>
-              <ProjectLayout1.Picture src={Picture1}></ProjectLayout1.Picture>
-              <ProjectLayout1.Picture src={Picture2}></ProjectLayout1.Picture>
-              <ProjectLayout1.Picture src={Picture3}></ProjectLayout1.Picture>
+              <ProjectLayout1.Picture src={Picture1} width="25%"></ProjectLayout1.Picture>
+              <ProjectLayout1.Picture src={Picture2} width="25%"></ProjectLayout1.Picture>
+              <ProjectLayout1.Picture src={Picture3} width="25%"></ProjectLayout1.Picture>
           </ProjectLayout1.PicGroup>
       </ProjectLayout1>
     </ProjectLayout1.Container>

@@ -20,7 +20,7 @@ export function ProjectLayout2Container() {
                 </ProjectLayout2.Content>
             </ProjectLayout2.Text>
             <ProjectLayout2.PicGroup>
-                <ProjectLayout2.Picture src={Picture1}></ProjectLayout2.Picture>
+                <ProjectLayout2.Picture src={Picture1} width="50%"></ProjectLayout2.Picture>
             </ProjectLayout2.PicGroup>
             <ProjectLayout2.Text>
                 <ProjectLayout2.Title>Design process</ProjectLayout2.Title>
@@ -35,7 +35,7 @@ export function ProjectLayout2Container() {
             </ProjectLayout2.Text>
             <ProjectLayout2.Title>Final skin mold spectrum</ProjectLayout2.Title>
             <ProjectLayout2.PicGroup>
-                <ProjectLayout2.Picture src={Picture2}></ProjectLayout2.Picture>
+                <ProjectLayout2.Picture src={Picture2} width="50%"></ProjectLayout2.Picture>
             </ProjectLayout2.PicGroup>
       </ProjectLayout2>
     </ProjectLayout2.Container>

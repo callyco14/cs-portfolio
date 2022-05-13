@@ -7,6 +7,7 @@ export function BottomNavContainer () {
                 <BottomNav.Links>
                         <BottomNav.Text href="engineering">Engineering</BottomNav.Text>
                         <BottomNav.Text href="design">Design</BottomNav.Text>
+                        <BottomNav.Text href="gallery">Gallery</BottomNav.Text>
                         <BottomNav.Text href="aboutme">About Me</BottomNav.Text>
                         <BottomNav.Text href="contact">Contact</BottomNav.Text>
                 </BottomNav.Links>
