@@ -1,5 +1,5 @@
 import React, { useState } from "react"
-import {Inner, Container, Group, Title, Box, Icon} from "./featuredwork"
+import {Inner, Container, Group, Title, Box} from "./featuredwork"
  
 export default function FeaturedWork ({children, direction = "row", ...restProps}) {
    return (
