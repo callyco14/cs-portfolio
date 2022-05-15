@@ -10,26 +10,18 @@ export function EngineeringContainer() {
           <FeaturedWork.Title>Engineering Projects</FeaturedWork.Title>
           <FeaturedWork.Group>
                 <a href="diy-dm-kits">
-                    <FeaturedWork.Box>
-                        <FeaturedWork.Icon src={DIYDM} />
-                    </FeaturedWork.Box>
+                    <FeaturedWork.Box title="DIY-DM Kits" image={DIYDM}/>
                 </a>
                 <a href="bird-friendly-picnic-structures">
-                    <FeaturedWork.Box>
-                        <FeaturedWork.Icon src={FPCC} />
-                    </FeaturedWork.Box>
+                    <FeaturedWork.Box title="Bird-Friendly-Picnic Structures" image={FPCC}/>
                 </a>
           </FeaturedWork.Group>
           <FeaturedWork.Group>
                 <a href="bird-friendly-picnic-structures">
-                    <FeaturedWork.Box>
-                        <FeaturedWork.Icon src={FPCC} />
-                    </FeaturedWork.Box>
+                    <FeaturedWork.Box title="Bird-Friendly-Picnic Structures" image={FPCC}/>
                 </a>
-                <a href="diydmkits">
-                    <FeaturedWork.Box>
-                        <FeaturedWork.Icon src={HandyStand} />
-                    </FeaturedWork.Box>
+                <a href="handy-stand">
+                    <FeaturedWork.Box title="Handy Stand" image={HandyStand}/>
                 </a>
           </FeaturedWork.Group>
       </FeaturedWork>

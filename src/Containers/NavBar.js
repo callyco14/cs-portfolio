@@ -6,6 +6,7 @@ export function NavBarContainer () {
             <NavBar>
                     <NavBar.Logo href="/">Callista Sukohardjo</NavBar.Logo>
                     <NavBar.Links>
+                        <NavBar.Text href="/">Home</NavBar.Text>
                         <NavBar.Text href="engineering">Engineering</NavBar.Text>
                         <NavBar.Text href="design">Design</NavBar.Text>
                         <NavBar.Text href="gallery">Gallery</NavBar.Text>

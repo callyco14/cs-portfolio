@@ -1,5 +1,5 @@
 import React from "react"
-import {Inner, Container, Links, Text} from "./bottomnav"
+import {Inner, Container, Links, Text, Group, Icon} from "./bottomnav"
  
 export default function BottomNav ({children, direction = "row", ...restProps}) {
    return (
@@ -22,3 +22,15 @@ BottomNav.Text = function BottomNavText ({children, href, ...restProps}) {
        </Text>
    )
 }
+
+BottomNav.Group = function BottomNavGroup({ children, ...restProps }) {
+   return <Group {...restProps}>{children}</Group>;
+ };
+
+BottomNav.Icon = function BottomNavIcon({ children, src, ...restProps }) {
+   return (
+     <Icon src={src} {...restProps}>
+       {children}
+     </Icon>
+   );
+ };

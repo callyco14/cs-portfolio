@@ -35,12 +35,15 @@ export const Box = styled.div`
   border-radius: 25px;
   display: flex;
   justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5em;
+  color: #38614D;
+  text-align: center;
+  &:hover #Title {
+    opacity: 100%;
+    }
   &:hover {
-    opacity: 60%;
+    opacity: 40%;
   }
-`;
-
-export const Icon = styled.img`
-  width: 100%;
-  object-fit: contain;
 `;

@@ -3,7 +3,8 @@ import styled from "styled-components/macro"
 export const Inner = styled.div`
     width: 100%;
     display: flex;
-    flex-direction: ${direction => direction};
+    flex-direction: row;
+    justify-content: space-between;
     `
  
 export const Container = styled.div`
@@ -12,16 +13,15 @@ export const Container = styled.div`
     z-index: 100;
     overflow: hidden;
     padding: 1.5% 5%;
-    background-color: #4a8456;
+    background-color: #e3efe4;
     `
  
 export const Links = styled.div`
+    width: 50%;
    display: flex;
    flex-direction: row;
-   padding-left: 30%;
    justify-content: space-between;
    align-items: center;
-   flex-grow: 1;
    `
  
 export const Text = styled.a`
@@ -30,10 +30,7 @@ export const Text = styled.a`
     font-weight: 600;
     color: #000000;
     &:hover {
-        color: #e3efe4;
-      }
-     &.selected {
-        color: #e3efe4;
+        color: #38614D;;
       }
     text-decoration: none;
     @media only screen and (max-width: 768px) {
@@ -48,7 +45,7 @@ export const Logo = styled.a`
     font-family: 'Montserrat', sans-serif;   
     font-size: 2.5em;
     font-weight: bold;
-    color: #e3efe4;
+    color: #38614D;
     text-decoration: none;
     @media only screen and (max-width: 768px) {
         font-size: 1.2rem;

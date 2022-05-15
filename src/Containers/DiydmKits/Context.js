@@ -10,7 +10,7 @@ export function ContextContainer() {
             <ProjectLayout2.Text>
                 <ProjectLayout2.Title>Context</ProjectLayout2.Title>
                 <ProjectLayout2.Content>
-                  The DIM-DM kits are part of an NIH-sponsored project with collaborators from Northwestern’s Feinberg School of Medicine and the Segal Design Institute.
+                  The DIY-DM kits are part of an NIH-sponsored project with collaborators from Northwestern’s Feinberg School of Medicine and the Segal Design Institute.
                   <br/><br/>
                   My main role in this project was to suggest and implement design solutions to improve the user experience of the DIY-DM kits based on different user group feedback over the summer.
                   <br/><br/>

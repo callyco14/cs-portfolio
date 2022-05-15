@@ -4,6 +4,7 @@ export const Inner = styled.div`
    width: 100%;
    display: flex;
    flex-direction: ${direction => direction};
+   justify-content: space-between;
    `
  
 export const Container = styled.div`
@@ -11,16 +12,15 @@ export const Container = styled.div`
    bottom: 0;
    overflow: hidden;
    padding: 1% 5%;
-   background-color: #4a8456;
+   background-color: #e3efe4;
    `
 
 export const Links = styled.div`
-    padding: 0% 30%;
+   width: 50%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    flex-grow: 1;
     
     `
  
@@ -28,9 +28,20 @@ export const Text = styled.a`
     font-family: 'Montserrat', sans-serif;
     font-size: 1.3em;
     font-weight: 600;
-    color: #000000;
     text-decoration: none;
+    color: #000000;
     &:hover {
-      color: #1b5e4e;
-    }
+        color: #38614D;;
+      }
     `
+
+export const Group = styled.div`
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  `;
+
+export const Icon = styled.img`
+   width: 2.5vw;
+   `;

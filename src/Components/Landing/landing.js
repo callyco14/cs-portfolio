@@ -7,6 +7,7 @@ export const Inner = styled.div`
     `;
 
 export const Container = styled.div`
+  height: 100%;
   padding: 2% 5% 0% 5%;
   background-color: #e3efe4;
 `;
@@ -31,11 +32,13 @@ export const Greeting = styled.a`
   color: #000000;
 `;
 
-export const Name = styled.h1`
+export const Name = styled.p`
   font-family: "Montserrat", sans-serif;
   font-size: 4em;
   color: #38614D;
   font-weight: bold;
+  margin: 0%;
+  padding-top: 3%;
 `;
 export const Position = styled.a`
   font-family: "Montserrat", sans-serif;

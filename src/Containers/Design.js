@@ -10,17 +10,11 @@ export function DesignContainer() {
       <FeaturedWork>
           <FeaturedWork.Title>Design Projects</FeaturedWork.Title>
           <FeaturedWork.Group>
-                <a href="diydmkits">
-                    <FeaturedWork.Box>
-                        <FeaturedWork.Icon src={Foodies1} />
-                        <FeaturedWork.Icon src={Foodies2} />
-                    </FeaturedWork.Box>
+                <a href="foodies-app">
+                    <FeaturedWork.Box title="Foodies App" image={Foodies1}/>
                 </a>
-                <a href="diydmkits">
-                    <FeaturedWork.Box>
-                        <FeaturedWork.Icon src={Memory1} />
-                        <FeaturedWork.Icon src={Memory2} />
-                    </FeaturedWork.Box>
+                <a href="memories-app">
+                    <FeaturedWork.Box title="Memories App" image={Memory1}/>
                 </a>
           </FeaturedWork.Group>
       </FeaturedWork>

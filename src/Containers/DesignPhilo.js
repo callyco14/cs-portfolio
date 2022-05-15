@@ -12,18 +12,10 @@ export function DesignPhiloContainer() {
             I design to make a difference...
           </DesignPhilo.Start>
           <DesignPhilo.Philo>
-            <ul>
-              <li>
-                Whether it is for a person, animal, community, or hopefully, the
-                world
-              </li>
-              <li>
-                With the types of products I create and the projects I work on
-              </li>
-              <li>
-                And hope to leave every problem space better off than it was before
-              </li>
-            </ul>
+            <br/>
+            -- whether it is for a person, animal, community, or hopefully, the world.
+            <br/><br/>
+            -- with the types of products I create and the projects I work on, so that I leave every problem space better off than it was before.
           </DesignPhilo.Philo>
         </DesignPhilo.Group>
       </DesignPhilo>
