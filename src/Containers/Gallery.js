@@ -7,10 +7,10 @@ export function GalleryContainer() {
       <FeaturedWork>
           <FeaturedWork.Title>Side Projects Gallery</FeaturedWork.Title>
           <FeaturedWork.Group>
-            <a href="handy-stand">
+            <a href="rendering">
                   <FeaturedWork.Box title="Rendering" image={Rendering}/>
             </a>
-            <a href="handy-stand">
+            <a href="rendering">
                   <FeaturedWork.Box title="Rendering" image={Rendering}/>
             </a>
           </FeaturedWork.Group>

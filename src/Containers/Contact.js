@@ -8,7 +8,7 @@ export function ContactContainer() {
           <Contact.Text>
             <Contact.Tagline>Let's set up a conversation!</Contact.Tagline>
             <Contact.Content>
-                Feel free to reach out through any one of the following:
+                Feel free to reach out through any of my social media linked below.
             </Contact.Content>
           </Contact.Text>
       </Contact>
